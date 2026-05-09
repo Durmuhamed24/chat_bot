@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "framework": "other",
+  "public": "public",
+  "env": {
+    "DEEPSEEK_API_KEY": "@deepseek_api_key",
+    "DEEPSEEK_BASE_URL": "@deepseek_base_url",
+    "DEEPSEEK_MODEL": "@deepseek_model"
+  }
+}
