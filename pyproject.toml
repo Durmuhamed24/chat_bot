@@ -1,0 +1,11 @@
+[project]
+name = "chat-bot"
+version = "0.1.0"
+description = "A stateful DeepSeek chatbot built with Chainlit and OpenAI Agents"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=1.0.0",
+    "openai-agents>=0.1.0",
+    "python-dotenv>=1.0.1",
+]
